@@ -12,13 +12,12 @@ class App extends Component {
             state: 'Earth'
         };
 
-        return ( <
-            div >
-            <
-            MyBanner name = "Hello World!"
+        return ( <div>
+            <MyBanner
+            name = "Hello World!"
             address = { myAddress }
-            /> <
-            /div>
+            />
+            </div>
         );
     }
 }

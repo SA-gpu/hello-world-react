@@ -11,13 +11,11 @@ export default class MyBanner extends Component {
 
         console.log(this.props);
 
-        return ( <
-            marquee >
-            <
-            h1 > { name } < /h1> <
-            address > { address.street }, { address.city }, { address.state } { address.zip } <
-            /address> <
-            /marquee>
+        return ( <marquee>
+            <h1> { name } </h1>
+            <address > { address.street }, { address.city }, { address.state } { address.zip }
+            </address>
+            </marquee>
         );
     }
 }
