@@ -4,24 +4,23 @@ import MyBanner from './MyBanner';
 
 class App extends Component {
 
-  render() {
+    render() {
 
-    const myAddress = {
-      street: 'Somewhere',
-      city: 'SLC',
-      state: 'UT',
-      zip: '12334'
-    };
+        const myAddress = {
+            street: 'Somewhere',
+            city: 'on',
+            state: 'Earth'
+        };
 
-    return (
-      <div>
-        <MyBanner
-          name="Tyler"
-          address={myAddress}
-        />
-      </div>
-    );
-  }
+        return ( <
+            div >
+            <
+            MyBanner name = "Hello World!"
+            address = { myAddress }
+            /> <
+            /div>
+        );
+    }
 }
 
 export default App;
